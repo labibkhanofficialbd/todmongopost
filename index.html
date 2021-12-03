@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image:type" content="image/png" />
+  <meta data-n-head="ssr" data-hid="og:locale" name="og:locale" content="en_US">
+  <meta property="og:url" content="https://web-truthordare.web.app/">
+  <meta data-n-head="ssr" data-hid="og:image" name="og:image"
+    content="https://cdn.discordapp.com/attachments/886307668128591902/916393753378451588/addquestions.png">
+  <meta data-n-head="ssr" data-hid="og:title" name="og:title" content="Truth or Dare Bot">
+  <meta property="og:description"
+    content="Truth Or Dare is a bot for play truth or dare. It's a bot that players can play on virtually. Now we added a new feature. Now players can play it in Bangla Language .">
+  <meta data-n-head="ssr" data-hid="theme-color" name="theme-color" content="#0a1023">
+  <meta name="keywords"
+    content="Truth Or Dare Bot, Turth Or Dare, truth or dare bot, truth or dare discord bot, truth or dare discord bot add, Truth Or Dare Bot Discord">
+  <meta data-n-head="ssr" data-hid="description" name="description"
+    content="Truth Or Dare is a bot for play truth or dare. It's a bot that players can play on virtually. Now we added a new feature. Now players can play it in Bangla Language.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="bgtod.png" type="image/x-icon">
+  <title>Questions For Truth Or Dare</title>
+</head>
+<body>
+  <div class="navbar">
+    <img src="bgtod.png" alt="">
+  </div>
+  
+  <h2 id="title">Send Question to Truth Or Dare MongoDB</h2>
+  <section>
+    <div>
+      <div class="select">
+        <select name="format" id="qst" method="post" action="/">
+           <option id="none" value="null" selected disabled>Choose your questions type</option>
+           <option value="t">t</option>
+           <option value="d">d</option>
+           <option value="tb">tb</option>
+           <option value="db">db</option>
+        </select>
+     </div>
+     <div>
+       <input id="content" type="text" placeholder="Enter Your Question">
+     </div>
+     <div class="btn">   
+      <button>Submit</button>
+     </div>
+    </div>
+  </section>
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <script src="/src/app.js"></script>
+</body>
+</html>
